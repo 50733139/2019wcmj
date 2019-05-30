@@ -800,4 +800,52 @@ function draw2mid() {
 </script>
 <p><canvas height="300" id="canvas" width="400"> Your browser doesn't support the HTML5 element canvas. </canvas> <br/> <button onclick="throwdice();">Throw dice </button></p>
 <form id="f" name="f">Stage: <input name="stage" type="text" value="First Throw"/> Point: <input name="pv" type="text" value="   "/> Outcome: <input name="outcome" type="text" value="     "/></form>
-<h1>ubuntu18.04虛擬主機架設</h1>
+<h1>ubuntu虛擬主機架設</h1>
+<p>1. 首先到這個網站下載<span style="background-color: #ffffff; color: #ff6600;"><strong>Ubuntu Server 18.04.2 </strong><span style="color: #000000;">該版本</span></span></p>
+<p><img alt="" height="406" src="/images/0.png" width="750"/></p>
+<p>2. 下載完成後開啟<span><span style="color: #3366ff;"><strong>Oracle VM VirtualBox</strong></span>點擊新增</span></p>
+<p><span><img alt="" height="470" src="/images/VirtualBox_BsaQKPr9ab.png" width="650"/></span></p>
+<p><span>3. 接著名稱自行命名，類型請選擇Linux，版本為Ububtu (64-bit)</span></p>
+<p><span>4. 接下來會跳轉為以下圖片，記憶體大小以不影響電腦運作為原則，硬碟則選<strong>立即建立虛擬硬碟</strong>，隨後按建立</span></p>
+<p><span><img alt="" height="575" src="/images/VirtualBox_ibW96eYn7C.png" width="650"/></span></p>
+<p><span></span></p>
+<p><span>5. 檔案位置若無特殊需求預設就好；檔案大小設置500GB即可按下Create</span></p>
+<p><span><img alt="" height="447" src="/images/0.3.PNG" width="442"/></span></p>
+<p><span>6. </span><span>請選擇第三個 <strong>VMDK (Virtual Machine Disk) </strong>，選擇完後將會在左方</span><span>多出一個您建立的虛擬主機並開啟它。</span></p>
+<p><span><img alt="" height="449" src="/images/0.1.PNG" width="442"/></span></p>
+<p><span>7. 開啟後，會跳出一個視窗讓，您選擇安裝映像檔，這裡請選先前已經下載好的<strong><span style="color: #ff6600;">Ubuntu Server 18.04.2</span>，選完後按啟動<span style="color: #000000;"></span></strong></span></p>
+<p><span><strong><img alt="" height="554" src="/images/VirtualBoxVM_7COp8GqcpO.png" width="642"/></strong></span></p>
+<p><span><strong><span style="color: #000000;"></span></strong></span>8. 語言請選"<strong>英文</strong>"</p>
+<p><img alt="" height="366" src="/images/1.png" width="650"/></p>
+<p><span style="color: #000000;"><strong></strong></span>9. 同上，設置"<strong>英文</strong>"就好</p>
+<p><img alt="" height="548" src="/images/2.PNG" width="650"/></p>
+<p>10. 選擇第一個<strong> [Inastal] Ubuntu </strong>後Enter</p>
+<p><img alt="" height="547" src="/images/3.PNG" width="650"/></p>
+<p>11. 網路設定，這邊為NAT進行上網，安裝完成後才需要更改為橋接網路，所以可以直接按Enter</p>
+<p><img alt="" height="545" src="/images/4.PNG" width="650"/></p>
+<p>12. 此步驟為<strong>proxy</strong>之設定，輸入在chrome裡所設定的proxy即可進行下個步驟。這邊所設定的proxy為https://140.130.17.4:3128</p>
+<p><img alt="" height="546" src="/images/5.PNG" width="650"/></p>
+<p>13. 配置Ubuntu鏡像檔，下面為鏡像檔下載的網址，這裡保持預設就好</p>
+<p><img alt="" height="543" src="/images/6.PNG" width="650"/></p>
+<p>14. 這裡為分割硬碟，選擇第一個整顆硬碟格式化就好</p>
+<p><img alt="" height="569" src="/images/7-1.PNG" width="650"/></p>
+<p>15. 選擇要安裝之硬碟</p>
+<p><img alt="" height="571" src="/images/7-2.PNG" width="650"/></p>
+<p>16. 在此確認清單內的項目是否有錯，若無可以直接進行下一步</p>
+<p><img alt="" height="571" src="/images/7-3.PNG" width="650"/></p>
+<p>17. 按下Done後，會跳出以下圖片中的視窗，該視窗的目的為確認是否要格式化，按Continue就可以了</p>
+<p><img alt="" height="571" src="/images/7-4.PNG" width="650"/></p>
+<p>18. 設定名字、登入之帳號和密碼</p>
+<p><img alt="" height="545" src="/images/7-5.PNG" width="650"/></p>
+<p>19. <span>安裝OpenSSH，這裡選擇要</span></p>
+<p><img alt="" height="542" src="/images/7-6.PNG" width="650"/></p>
+<p>20. <span>想要安裝的伺服器組合  如果不要直接下一步就好  就會開始安裝了</span></p>
+<p><img alt="" height="546" src="/images/VirtualBox_9tFmDQwwKK.png" width="650"/></p>
+<p>21. 底下有一條槓槓在旋轉，表示正在安裝</p>
+<p><img alt="" height="548" src="/images/11.PNG" width="650"/></p>
+<p>22. 下圖為安裝完成後的畫面，按下Reboot Now後再重開就完成了！</p>
+<p><img alt="" height="546" src="/images/12.PNG" width="650"/></p>
+<p>重開後，需要輸入帳號、密碼，使用sudo也是 </p>
+<p>關機使用 sudo shutdown -h now  關機並關電源，使用 sudo halt  是關機但不關電源</p>
+<p></p>
+<p>感謝50733143同學的圖片支援！ &lt;3</p>
