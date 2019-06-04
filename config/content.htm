@@ -1,7 +1,6 @@
-<h1>簡介</h1>
-<p>CMSimfly (<a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly)</a> 是一套簡單的網際內容管理系統, 採用 Flask 網際框架, 以 Beautifulsoup 解讀分頁內容.</p>
-<p><img alt="" height="471" src="/images/gocycle4.png" width="587"/></p>
-<h2>目錄結構</h2>
+<h1>利用虛擬主機開啟動態網站</h1>
+<p>content 1fly (<a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly)</a> 是一套簡單的網際內容管理系統, 採用 Flask 網際框架, 以 Beautifulsoup 解讀分頁內容.</p>
+<p><img alt="" height="471" src="/images/gocycle4.png" width="587"/></p><h2>目錄結構</h2>
 <p>CMSimfly 的動態系統採用 Python3 + Flask 建構, 並且利用 Beatifulsoup 解讀位於 contig 目錄中的 content.htm 超文件檔案.</p>
 <p>content.htm 檔案可以透過動態系統中的 generate_pages 功能, 將超文件轉為位於 content 目錄中的個別頁面檔案.</p>
 <p>動態系統與靜態系統則共用 downloads, images, static 等目錄, 其中 downloads 目錄存放在動態系統上傳的文件檔, 而 images 目錄則存放動態系統所上傳的影像檔案, 包括 jpg, png 與 gif 等格式圖檔.</p>
@@ -920,3 +919,12 @@ function draw2mid() {
 <p><span>了解機械設計系電腦輔助設計室電腦的網路設定, 其中包括 IPv4 網路與 IPv6 網路設定.</span><br/><br/><span>正常情況下, 電腦輔助設計室中的 64 台電腦透過 IPv4 協定下的 DHCP 與 NAT 上網, 各電腦以 DHCP client 取得 192.168.1.* 的網路位址, 然後以 NAT 的一組外部 IP 上網, 通常必須設定 Proxy Server 為 http://proxy.kmol.info:3128 後上網會比較順暢, 但若 8 台 Proxy Servers 無法正常運作時, 則取消 Proxy Server 的設定.</span><br/><br/><span>瀏覽器代理主機設定</span><br/><br/><span>了解如何設定 Google Chrome 與 Firefox 瀏覽器的代理主機設定.</span><br/><br/><span>申請 Github 帳號</span><br/><br/><span>利用 Gmail 帳號申請 Github 帳號, 申請後利用電子郵箱收信進行確認後, 就可以在 Github 上建立倉儲.</span></p>
 <h2>配置可攜程式環境</h2>
 <p><span>取得 Windows 10 64 位元環境下的可攜程式環境 (下載  2019_cdb_w5.7z), 下載後解開目錄, 放入 USB3.0 規格以上的隨身碟或隨身硬碟.</span><br/><br/><span>以滑鼠點擊 start.bat 開啟可攜隨身系統, 以 stop.bat 關閉可攜隨身系統, 隨身碟必須在關閉所有應用程式執行下, 才可正常退出.</span><br/><br/><span>了解基本的 DOS (Disk Operating System) 指令</span><br/><br/><span>C:\&gt; 符號為 DOS 命令列視窗的回應 (Prompt), 表示目前在 C 槽硬碟的 \ 根目錄, 若要切換到 Y 槽, 則在電腦的回應後, 輸入 Y:, 命令列將轉為</span><br/><br/><span>Y:\&gt;</span><br/><br/><span>若要更換目錄, 則使用 cd, 也就是 change directory 的意思, 例如:</span><br/><br/><span>Y:\&gt;cd tmp</span><br/><br/><span>表示要從 Y 槽的根目錄更換到 tmp 目錄, 也就是</span><br/><br/><span>Y:\tmp&gt;</span><br/><br/><span>若要再回到 Y 槽的根目錄, 可以使用 cd ..</span><br/><br/><span>表示要從目前所在目錄, 往上跳回一個目錄, 也就是重新回到 Y 槽的根目錄.</span><br/><br/><span>另外, 無論目前位於哪一個子目錄, 也可以使用 cd \</span><br/><br/><span>直接回到根目錄.</span><br/><br/><span>或者從 Y:\&gt; 直接使用</span><br/><br/><span>cd \tmp\repo\ssh\wcm2019</span><br/><br/><span>直接從 Y 槽的根目錄, 跳進 Y:\tmp\repo\ssh\wcm2019&gt;</span><br/><br/><span>此外, 常用的 DOS 指令有:</span><br/><br/><span>dir - 列出目前所在目錄的內容</span><br/><br/><span>mkdir - 隨後加上要建立目錄的名稱, 可以建立目錄</span><br/><br/><span>cls - clear screen, 清除目前的命令列顯示的內容</span></p>
+<h1>利用虛擬主機開啟動態網站</h1>
+<p><span>下載</span><a href="https://2019wcm.blogspot.com/">https://2019wcm.blogspot.com/</a><span>中老師在w15內容裡新增的</span><span>W15 實作所完成的虛擬主機 <a href="https://drive.google.com/file/d/1l7DLMa6JSOE7m3AwPfWjazweEjymK9sP/view?usp=sharing">vmdk 壓縮檔案</a>並下載下來</span></p>
+<p><span><img alt="" height="176" src="/images/1下載地點.PNG" width="617"/></span></p>
+<p>在<strong>Virtualbox</strong>中新增虛擬主機，然後在<span>硬碟選擇裡選擇"使用現有虛擬硬碟檔案"，隨後安裝上圖該<strong>W15 實作所完成的虛擬主機 vmdk 壓縮檔案 </strong> 之該檔，建立後開啟</span></p>
+<p><img alt="" height="460" src="/images/2新增虛擬主機.PNG" width="800"/></p>
+<p>開啟後並登入(帳密皆為kmol2019)，利用指令 ifconfig 來查詢虛擬主機的IP，再開啟<strong>FileZilla </strong>連線至虛擬主機，將虛擬主機裡的資料夾<strong>CMS</strong>內的檔案修改為自己倉儲內的檔案</p>
+<p><img alt="" height="670" src="/images/虛擬主機查詢IP.PNG" width="800"/></p>
+<p>注意！cms裡的init.py</p>
+<p><img alt="" height="634" src="/images/FZ改檔.PNG" width="800"/></p>
